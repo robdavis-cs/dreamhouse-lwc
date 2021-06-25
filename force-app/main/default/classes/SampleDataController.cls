@@ -54,10 +54,12 @@ public with sharing class SampleDataController {
         insert contacts;*/
     }
 
+    /*
     private static void randomizeDateListed(List<Property__c> properties) {
-        /*for (Property__c property : properties) {
+        for (Property__c property : properties) {
             property.Date_Listed__c =
                 System.today() - Integer.valueof((Math.random() * 90));
-        }*/
+        }
     }
+    */
 }
