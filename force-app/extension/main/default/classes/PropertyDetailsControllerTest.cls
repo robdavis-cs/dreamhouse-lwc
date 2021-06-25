@@ -7,7 +7,7 @@ public class PropertyDetailsControllerTest {
         Property_Details__c propertyDetail = new Property_Details__c(Name = 'Test Property Detail');
         insert propertyDetail;
         Test.startTest();
-        String barredName = PropertyDetailsController.getBarredDetailName(propertyDetail.Name);
+        String barredName = PropertyDetailsController.getBarredDetailName(propertyDetail.Id);
         Test.stopTest();
         System.assertEquals(propertyDetail.Name + 'Bar', barredName, 'that name was not correctly barred');
     }
