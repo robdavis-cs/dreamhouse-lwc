@@ -27,7 +27,7 @@ fi
 sfdx force:org:create -s -f config/project-scratch-def.json -a $ALIAS -d $DAYS;
 
 ## push local code artifacts to scratch org
-sfdx force:source:push;
+#sfdx force:source:push;
 
 # open new scratch org in browser to default page
 sfdx force:org:open -p one/one.app

@@ -3,7 +3,7 @@
 
 if [ $# -lt 1 ]
 then
-    PACKAGENAME="Dreamhouse Demo"
+    PACKAGENAME="Dreamhouse Extension"
     POSTINSTALLURL="https://google.com"
     TAG=`git log -n 1 origin/master --pretty=format:"%H"`
 else

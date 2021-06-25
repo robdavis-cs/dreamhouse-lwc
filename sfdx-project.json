@@ -10,12 +10,27 @@
             "versionName": "ver 0.1",
             "versionNumber": "0.1.0.NEXT",
             "default": false
+        },
+        {
+            "path": "force-app/extension",
+            "package": "Dreamhouse Extension",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "default": false,
+            "dependencies": [
+                {
+                    "package": "0Ho5e000000TNY6CAO",
+                    "versionNumber": "0.1.0.LATEST"
+                }
+            ]
         }
     ],
     "namespace": "rob_2gp_demo",
     "sourceApiVersion": "52.0",
     "packageAliases": {
         "Dreamhouse Demo": "0Ho5e000000TNY6CAO",
-        "Dreamhouse Demo@0.1.0-1": "04t5e000000RAXqAAO"
+        "Dreamhouse Demo@0.1.0-1": "04t5e000000RAXqAAO",
+        "Dreamhouse Extension": "0Ho5e000000TNYBCA4",
+        "Dreamhouse Extension@0.1.0-1": "04t5e000000RAXvAAO"
     }
 }
